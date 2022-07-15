@@ -1,4 +1,4 @@
-# ORDER SUMMERY CARD ✔
+<!-- # ORDER SUMMERY CARD ✔
 
 ------------
 ## Discription : 🤙
@@ -14,4 +14,9 @@ Challenge is to build out this component and get it looking as close to the desi
 ------------
 
 
+
+ -->
+ # - Sucharitha : ✌
+
+------------
 
