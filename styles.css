@@ -1,4 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap'); */
+/* Author Sushant Bherwal
+NS-Uno Batch 
+Project Name: Order Summery */
 
 :root {
 
@@ -126,14 +128,10 @@ body {
 }
 
 .plan-box-right a:focus {
-  /* Provide a fallback style for browsers
-     that don't support :focus-visible */
   outline: 3px dotted var(--clr-neutral-blue-300);
 }
 
 .plan-box-right a:focus:not(:focus-visible) {
-  /* Remove the focus indicator on mouse-focus for browsers
-     that do support :focus-visible */
   outline: none;
 }
 
@@ -141,7 +139,6 @@ body {
   /* for browsers that do support :focus-visible */
   outline: 3px dotted var(--clr-neutral-blue-300);
 }
-
 
 /* BUTTONS */
 
