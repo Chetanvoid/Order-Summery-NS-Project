@@ -2,29 +2,6 @@
 NS-Uno Batch 
 Project Name: Order Summery */
 
-:root {
-
-/* COLORS */
-
-/* PRIMARY COLORS */
-
---clr-primary-pale-blue: hsl(225, 100%, 94%);
---clr-primary-bright-blue: hsl(245, 75%, 52%);
-
-/* NEUTRAL COLORS */
-
---clr-neutral-blue-100: hsl(225, 100%, 98%);
---clr-neutral-blue-300: hsl(224, 23%, 55%);
---clr-neutral-blue-800: hsl(223, 47%, 23%);
-
-/* FONTS */
-
---ff-main: 'Red Hat Display', sans-serif;
-
-}
-
-/* GENERAL STYLES */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -32,13 +9,13 @@ Project Name: Order Summery */
 }
 
 body {
-  background: url(images/pattern-background-mobile.svg), var(--clr-primary-pale-blue);
+  background: url(images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100vh;
   display: grid;
   place-items: center;
-  font-family: var(--ff-main);
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .card {
@@ -53,27 +30,25 @@ body {
 
 /* CARD IMAGE */
 
-.card__img-holder img {
+.card-img-holder img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* CARD BODY */
-
-.card__body {
+.card-body {
   text-align: center;
 }
 
 .title {
-  color: var(--clr-neutral-blue-800);
+  color: hsl(223, 47%, 23%);
   font-size: 1.4rem;
   font-weight: 900;
   padding: 1.3em 0 .8em 0; 
 }
 
 .text {
-  color: var(--clr-neutral-blue-300);
+  color: hsl(224, 23%, 55%);
   line-height: 1.6;
   font-size: .95rem;
   padding: 0 2.1em 1.4em 2.1em;
@@ -82,7 +57,7 @@ body {
 /* PLAN BOX */
 
 .plan-box {
-  background: var(--clr-neutral-blue-100);
+  background: hsl(225, 100%, 98%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,17 +81,17 @@ body {
 }
 
 .plan-details h3 {
-  color: var(--clr-neutral-blue-800);
+  color: hsl(223, 47%, 23%);
   font-size: .9rem;
 }
 
 .plan-details p {
-  color: var(--clr-neutral-blue-300);
+  color: hsl(224, 23%, 55%);
   font-size: .8rem;
 }
 
 .plan-box-right a {
-  color: var(--clr-primary-bright-blue);
+  color: hsl(245, 75%, 52%);
   font-weight: 700;
   font-size: .8rem;
   opacity: 1;
@@ -128,7 +103,7 @@ body {
 }
 
 .plan-box-right a:focus {
-  outline: 3px dotted var(--clr-neutral-blue-300);
+  outline: 3px dotted hsl(224, 23%, 55%);
 }
 
 .plan-box-right a:focus:not(:focus-visible) {
@@ -137,7 +112,7 @@ body {
 
 .plan-box-right a:focus-visible {
   /* for browsers that do support :focus-visible */
-  outline: 3px dotted var(--clr-neutral-blue-300);
+  outline: 3px dotted hsl(224, 23%, 55%);
 }
 
 /* BUTTONS */
@@ -164,7 +139,7 @@ body {
 }
 
 .btn:focus {
-  outline: 3px dashed var(--clr-neutral-blue-300);
+  outline: 3px dashed hsl(224, 23%, 55%);
 }
 
 .btn:focus:not(:focus-visible) {
@@ -172,11 +147,11 @@ body {
 }
 
 .btn:focus-visible {
-  outline: 3px dashed var(--clr-neutral-blue-300);
+  outline: 3px dashed hsl(224, 23%, 55%);
 }
 
 .payment-btn {
-  background: var(--clr-primary-bright-blue);
+  background: hsl(245, 75%, 52%);
   color: white;
   box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, .25);
   opacity: 1;
@@ -188,12 +163,12 @@ body {
 }
 
 .cancel-btn {
-  color: var(--clr-neutral-blue-300);
+  color: hsl(224, 23%, 55%);
   transition: color .2s ease;
 }
 
 .cancel-btn:hover {
-  color: var(--clr-neutral-blue-800);
+  color: hsl(223, 47%, 23%);
 }
 
 /* MEDIA QUERIES */
@@ -201,7 +176,7 @@ body {
 @media (min-width: 450px) {
 
   body {
-    background: url(images/pattern-background-desktop.svg), var(--clr-primary-pale-blue);
+    background: url(images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     background-size: contain;
   }
