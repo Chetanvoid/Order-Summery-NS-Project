@@ -1,7 +1,7 @@
 # ORDER-SUMMERY-CARD ✔
 
 ------------
-![Image](https://raw.githubusercontent.com/Sushankznation/Order-Summery-NS-Project/188cbfe89b47faf1b2ffac24aa7f88a5da24542d/images/image.png?token=AYPBWJ2QTGEN72UABFPGXLTC2JESK "Image")
+![Image](https://raw.githubusercontent.com/Sushankznation/Order-Summery-NS-Project/master/images/image.png?token=GHSAT0AAAAAABV4DXQOX7PSQEXKD4J4KZ44YWSJSKQ)
 ## Discription : 🤙
 - This is basically a Order Summery Card .Which I created for the Level-2 project for NS.
 
@@ -34,7 +34,9 @@
 
 ### Project-Structure : 🏠
 ├── images
+
 ├── index.html
+
 └── styles.css
 
 ------------
